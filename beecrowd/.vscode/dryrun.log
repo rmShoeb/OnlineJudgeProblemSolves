@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/mnt/d/git/OnlineJudgeProblemSolves/beecrowd'
+g++ 1079.cpp -Wall -std=c++17 -o hello
+./hello
+make: Leaving directory '/mnt/d/git/OnlineJudgeProblemSolves/beecrowd'
+ 
