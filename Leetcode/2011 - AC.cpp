@@ -4,8 +4,8 @@ public:
         int x{0};
         
         for(auto operation: operations){
-            if(operation[0]=='+' or operation[2]=='+') x++;
-            else if(operation[0]=='-' or operation[2]=='-') x--;
+            if(operation[1]=='+') x++;
+            else x--;
         }
         
         return x;
