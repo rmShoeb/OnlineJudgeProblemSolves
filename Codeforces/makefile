@@ -1,10 +1,10 @@
 create:
-	touch 1733A.cpp
+	touch 102267H.cpp
 
 compile:
-	g++ 1703A.cpp -Wall -std=c++17 -o a
+	g++ 102267H.cpp -Wall -std=c++17 -o a
 	make run
 
 run:
-	# ./a
-	./a <input.txt
+	./a
+	# ./a <input.txt
