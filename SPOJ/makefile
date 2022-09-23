@@ -1,8 +1,8 @@
 create:
-	touch 443A.cpp
+	touch QTREE2.cpp
 
 compile:
-	g++ 443A.cpp -Wall -std=c++17 -o a
+	g++ QTREE2.cpp -Wall -std=c++17 -o a
 	make run
 
 run:
